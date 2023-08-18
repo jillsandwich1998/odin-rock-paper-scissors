@@ -1,0 +1,43 @@
+.botoes {
+  display: flex;
+}
+
+.btn {
+  padding: 10px;
+  background-color: rgb(5, 16, 233);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  border-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* 100% da altura da janela (viewport) */
+}
+
+.main-content {
+  width: 500px;
+  
+  overflow: auto;
+}
+
+.game-info{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+.win-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  color: blueviolet;
+  text-shadow: 3px;
+}
